@@ -4,7 +4,7 @@ from win10toast import ToastNotifier
 import time
 
 while True:
-    # current_time=time.strftime("%H:%M:%S")
+    current_time=time.strftime("%H:%M:%S")
     r = requests.get("")
     c = r.content
     toast = ToastNotifier()
